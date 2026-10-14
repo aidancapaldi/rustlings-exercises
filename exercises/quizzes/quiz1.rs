@@ -12,6 +12,17 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+fn calculate_price_of_apples(appieSlice:i32) -> i32 {
+    // Input --> number of apples
+    // if over 40, return that number 
+    if (appieSlice <= 40)
+    {
+        return appieSlice * 2;
+    } else {
+        return appieSlice;
+    }
+}
+
 fn main() {
     // You can optionally experiment here.
 }
